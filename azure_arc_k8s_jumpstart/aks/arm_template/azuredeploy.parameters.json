@@ -3,22 +3,33 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "clusterName": {
-            "value": "<AKS cluster name>"
+            "value": "aks-demo-01"
         },
         "dnsPrefix": {
-            "value": "<AKS unique DNS prefix>"
+            "value": "aks-demo-01"
         },        
          "linuxAdminUsername": {
-            "value": "<OS Username>"
+            "value": "chief_admin"
         },
         "sshRSAPublicKey": {
-            "value": "<Your ssh public key>"
+            "value": "AAAAB3NzaC1yc2EAAAABJQAAAgEAsEdUB1WfFIc2XvnqVhpyPwF3B2IAOEkxwaSC
+            yAUY01c4lPw6eg1xy5OkSPjWp4s3Gs9qmMriDdz1YfPyf89LkGUYFJ/hBz1dWASX
+            w9qPXS2fz9izWvqb3Me4oCoZkr+9i/wGHIOK2C5IbVoO4p1wEP6ZFZ6+HvGQTw+i
+            LNET8S7FGz2Ft9sL2bTQRooLuuJtgW3O0MhEvRuLgzkwkEn1BGdL/6aN6nF3qQCY
+            X8ClSepZ33vh1nl1e3H6/hUQHPq7eQxAo2zy3t28HaV01YDQLVg9+Av0ohgaYTSL
+            guK67Up9UM5Y5E4s6TRYRDWbAC24BqHrW/nlXWh60dg5TR0L7mJE/jPXLDzzZunG
+            2gp3NQKslnwmcTjtzYvcDyYFQutXj4OygW7Njyc54NeIpqKMIArXQvAJS0gL7WiE
+            Ylhfqi50PN7jxdMJMmUSf91JoHYrsukesXEnRHRa7lH2nCORtBOTDiEDa1iTgcTw
+            t7CIXkRDuzdTIsMBB4rXntcC0NwuyOsNzv9ap9l1rwcXIn1QyW3licPM2ifuNYvU
+            TAMiWPM1tbQnN3cA+N4KX6TmgnVbj1FRKbngQ/3cnkkSzxgco1IeaIzIo2XlGWwD
+            T20NFDZ3SVz9w30oBqIOUf7ipvhbKbT/6SQevKnAuMcYOmaDpj4EexaX23oALsKw
+            dJBStWk="
         },
         "servicePrincipalClientId": {
-            "value": "<Your Azure Service Principle name>"
+            "value": "http://AzureArcK8s"
         },
         "servicePrincipalClientSecret": {
-            "value": "<Your Azure Service Principle password>"
+            "value": "JWAhyiycJaCE8uTWZ9RhCZJ-HJlxT_-ToY"
         },
         "kubernetesVersion": {
             "value": "<Kubernetes Version, e.g. 1.18.2>"
